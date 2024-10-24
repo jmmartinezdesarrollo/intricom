@@ -38,7 +38,6 @@ export default function HotelsPage() {
     fetchHotels();
   }, []);
 
-  console.log(hotels);
   return (
     <div>
       <h1>Lista de Hoteles</h1>
