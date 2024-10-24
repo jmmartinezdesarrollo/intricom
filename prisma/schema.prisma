@@ -10,7 +10,6 @@ generator client {
 model HotelBooking {
   id         Int      @id @default(autoincrement())
   hotelId    Int     
-  name       String
   createDate DateTime @default(now())
   clientId   Int      
 
