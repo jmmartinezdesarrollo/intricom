@@ -1,4 +1,14 @@
-# Iniciar base de datos
+# Prueba técnica intricom
 
-1. npx prisma migrate dev --name initial_migration
-2. npx prisma generate
+## Iniciar base de datos
+
+```bash
+ npx prisma migrate dev --name initial_migration
+ npx prisma generate
+```
+
+## Iniciar servidor
+
+```bash
+npm run dev
+```
